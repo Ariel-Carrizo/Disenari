@@ -134,10 +134,28 @@ button:hover {
   height: auto;
 }
 
+/* animacion de imagen zoom*/
+.zoom__img{
+  display:block!important;
+  -webkit-transition:-webkit-transform 1s ease-out;
+  -moz-transition:-moz-transform 1s ease-out;
+  -o-transition:-o-transform 1s ease-out;
+  -ms-transition:-ms-transform 1s ease-out;
+  transition:transform 1s ease-out;
+  }
+  .zoom__img:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1)
+  }
+
 /*MEDIA QUERIES*/
 /*celulares 480px*/
 
 @media screen and (max-width: 480px) {
+
   .grid__body {
     grid-template-columns: 100%;
 }
@@ -151,5 +169,5 @@ button:hover {
 .grid__footer{
     font-size: 10px;
     position: absolute 0;
-}  
-
+}
+}
