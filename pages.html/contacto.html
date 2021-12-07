@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Montserrat:wght@100">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Sacramento>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Diseñari - Inicio</title>
+    <link  rel="icon"   href="../assets/icono.png" type="image/png"/>
+
+</head>
+    <body>
+        <!--Logo de empresa en el header con medidas y con descripción-->
+        <header>    
+        
+            <!--Logo de empresa en el header con medidas y con descripción-->
+            <div class="ancho">
+                <div class="logo">
+                    <img src="../assets/logo.png" alt="logotipo de empresa" width="120px" height="120px">
+                </div>
+            
+            <!--Barra de navegación con lista desordenada y enlaces-->        
+            <nav>
+                <UL type="none">
+                    <LI> <a href="../index.html"> Inicio </a> </LI>
+                    <LI> <a href="../pages.html/productos.html"> Productos </a> </LI>
+                    <LI> <a href="../pages.html/quienes_somos.html"> Misión/Visión </a> </LI>
+                    <LI> <a href="../pages.html/donde_estamos.html"> Ubicación </a> </LI>
+                    <LI> <a href="../pages.html/contacto.html"> Contacto </a> </LI>
+                </UL>
+            </Nav>
+            </div>    
+        </header>
+        
+        <div class="body__contacto">
+        <div>
+            <h2 class="titulo__h2">Contacto</h2>
+        </div>    
+            <h3 class="subtitulo__body">Si tienes alguna consulta con mucho gusto te la respondemos, completa el siguiente formulario</h3>
+        <!--Formulario de contacto-->
+        <div class="formulario__centrado">
+            <fieldset class="sacar__borde">
+                <form action="servidor.php" method="post">
+                <legend>¿En que podemos ayudarte?</legend>
+                <br>
+                <div class="formulario__estilo">
+                        <label for="nombre">Nombre </label>
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                        <br>
+                        <label for="apellido">Apellido </label>
+                        <input type="text" name="apellido" placeholder="Apellido" required>
+                        <br>
+                        <label for="email">Correo Electronico </label>
+                        <input type="email" name="email" placeholder="tuemail@servidor.com">
+                        <br>
+                        <label for="telefono">Telefono </label>
+                        <input type="tel" name="telefono" placeholder="Teléfono" required>
+                        <br>
+                        <textarea name="comentario" id="" cols="30" rows="5" placeholder="Escribenos tu comentario"></textarea>
+                    </div>
+                    <br>
+                    <input class="botones__form" type="submit" value="Enviar formulario">
+                    <input class="botones__form" type="reset" value="Resetear formulario">
+                    
+                </fieldset>
+            </div>    
+        <br>
+        </div>
+        <footer class="footer">
+            <div class="logo__footer">
+                <img class="posicion__logo" src="../assets/logo.png" alt="logotipo de empresa" width="60px" height="60 px">
+            </div>
+                <div class="texto__footer">
+                <p> Todos los derechos reservados. Propiedad de Diseñari 2021 </p>
+                <p>Aviso legal</p>
+            <div>
+        </footer>
+    </body>
+    </html>
+    </body>
+</html>
