@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../https://fonts.google.com/share?selection.family=Montserrat:wght@100">
     <link rel="stylesheet" href="../https://fonts.google.com/share?selection.family=Sacramento>
@@ -11,10 +12,10 @@
 </head>
 
 <body>
+    <!--Navbar personal
     <div class="fondo__header">
         <header>    
-            <!--Logo de empresa en el header con medidas y con descripción-->
-            <nav class="menu__navegacion contenedor">
+             <nav class="menu__navegacion contenedor">
                 <div class="logo">
                     <img class="rotar" src="../assets/logo.png" alt="logotipo de Diseñari">
                 </div>
@@ -27,19 +28,91 @@
                 </div>
             </Nav>
         </header>
-        </div>
+    </div>
+    -->
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" "><img src="../assets/logo.png" alt="Logotipo de empresa Diseñari"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages.html/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Quienes Somos?
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="../pages.html/quienes_somos.html">Misión</a></li>
+                      <li><a class="dropdown-item" href="../pages.html/quienes_somos.html">Visión</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../pages.html/quienes_somos.html">Nuestra Historia</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages.html/donde_estamos.html">Ubicacion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages.html/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
         <div class="body__producto">
             <h2 class="titulo__h2 centrar ">Productos</h2>
             <h3 class="centrar" >Mobiliario para niños/as</h3>
-                
-                <div class="productos__alinear distribuir">
+            <!--imagenes hechas por mi    
+            <div class="productos__alinear distribuir">
                     <img class="zoom__img" src="../assets/amarillo.jpg" alt="torre de aprendizaje amarilla" width="150 px">
                     <img class="zoom__img" src="../assets/celeste.jpg" alt="torre de aprendizaje celeste" width="150 px" >
                     <img class="zoom__img" src="../assets/rosado.jpg" alt="torre de aprendizaje rosada" width="150 px" >    
                     <img class="zoom__img" src="../assets/verde claro.jpg" alt="torre de aprendizaje verde claro" width="150 px">
                 </div>
-                <div>
-                    <h4 class="titulo__h4 centrar">Seleccione un color para su torre de aprendizaje</h4>
+            -->
+                <!--Carusel de imagenes de mobiliario para niños-->
+                <div id="carouselExampleIndicators" class="carousel" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../assets/amarillo.jpg" class="d-block w-25 centrar" alt="amarilla">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../assets/celeste.jpg" class="d-block w-25 centrar" alt="celeste">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../assets/verde claro.jpg" class="d-block w-25 centrar" alt="verde claro">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../assets/rosado.jpg" class="d-block centrar w-25" alt="rosada">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                <h4 class="titulo__h4 centrar">Seleccione un color para su torre de aprendizaje</h4>
                 <div class="centrar__menu centrar">    
                     <select class="sacar__bordes" name="Talles" id="talles">
                         <div class="menu">
@@ -52,12 +125,20 @@
                 </div>
             </div>
         <h3 class="centrar">Juguetes para niños/as</h3>
-            <div class="productos__alinear distribuir">    
-                <img class="zoom__img" src="../assets/dinolampara.jpg" alt="lampara en forma de dinosaurio" height="200px">
-                <img class="zoom__img" src="../assets/diseñari-01.jpg" alt="oveja motricidad fina" height="200px" >
-                <img class="zoom__img" src="../assets/diseñari-09.png" alt="oveja motricidad fina" height="200px">
-            </div>
-        <h3 class="centrar">Impresión 3d</h3>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/diseñari-09.png" class="d-block w-25" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/diseñari-01.jpg" class="d-block w-25" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/dinolampara.jpg" class="d-block w-25" alt="...">
+                  </div>
+                </div>
+              </div>
+            <h3 class="centrar">Impresión 3d</h3>
             <div class="productos__alinear distribuir">    
                 <img class="zoom__img" src="../assets/PUERCOESPIN-01.jpg" alt="puercoespin impreso en 3d" height="200px">
                 <img class="zoom__img" src="../assets/maceteros.jpg" alt="macetero impreso en 3d" height="200px">
@@ -77,5 +158,6 @@
             <div>
         </footer>
         </section>
-        </body>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>    
+    </body>
     </html> 
