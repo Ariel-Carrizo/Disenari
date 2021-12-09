@@ -70,39 +70,19 @@
                 </div>
               </nav>
         </header>
-        <div class="body__contacto">
         <div>
-            <h2 class="titulo__h2">Contacto</h2>
+            <h4 class="titulo__h2">Contacto</h4>
         </div>    
-            <h3 class="subtitulo__body">Si tienes alguna consulta con mucho gusto te la respondemos, completa el siguiente formulario</h3>
+            <h5 class="subtitulo__body">Si tienes alguna consulta con mucho gusto te la respondemos, completa el siguiente formulario</h5>
         <!--Formulario de contacto-->
-        <div class="formulario__centrado">
-            <fieldset class="sacar__borde">
-                <form action="servidor.php" method="post">
-                <legend>¿En que podemos ayudarte?</legend>
-                <br>
-                <div class="formulario__estilo">
-                        <label for="nombre">Nombre </label>
-                        <input type="text" name="nombre" placeholder="Nombre" required>
-                        <br>
-                        <label for="apellido">Apellido </label>
-                        <input type="text" name="apellido" placeholder="Apellido" required>
-                        <br>
-                        <label for="email">Correo Electronico </label>
-                        <input type="email" name="email" placeholder="tuemail@servidor.com">
-                        <br>
-                        <label for="telefono">Telefono </label>
-                        <input type="tel" name="telefono" placeholder="Teléfono" required>
-                        <br>
-                        <textarea name="comentario" id="" cols="30" rows="5" placeholder="Escribenos tu comentario"></textarea>
-                    </div>
-                    <br>
-                    <input class="botones__form" type="submit" value="Enviar formulario">
-                    <input class="botones__form" type="reset" value="Resetear formulario">
-                    
-                </fieldset>
-            </div>    
-        <br>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label h6">Escribe tu email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label h6">Dejanos tu consulta</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
         </div>
         <!--Footer de pagina-->
     <section class="fondo__footer">
