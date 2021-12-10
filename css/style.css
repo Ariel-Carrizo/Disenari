@@ -142,6 +142,11 @@ body,
   margin: 1rem;
 }
 
+.centrar__imagen{
+  display: block;
+  margin: auto;
+}
+
 .alinear__vertical{
   padding-top: 10%;
 }
