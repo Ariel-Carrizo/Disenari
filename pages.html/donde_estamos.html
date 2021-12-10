@@ -9,29 +9,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Diseñari - Inicio</title>
     <link  rel="icon"   href="../assets/icono.png" type="image/png"/>
+    <!--Referencia a iconos-->
+    <script src="https://kit.fontawesome.com/7b21ed2349.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!--Navbar personal
-    <div class="fondo__header">
-        <header>    
-            
-            <nav class="menu__navegacion contenedor">
-                <div class="logo">
-                    <img class="rotar" src="../assets/logo.png" alt="logotipo de Diseñari">
-                </div>
-                <div class="enlaces">
-                    <li> <a href="../index.html"> Inicio </a> </li>
-                    <li> <a href="../pages.html/productos.html"> Productos </a> </li>
-                    <li> <a href="../pages.html/quienes_somos.html"> Mision/Vision </a> </li>
-                    <li> <a href="../pages.html/donde_estamos.html"> Ubicacion </a> </li>
-                    <li> <a href="../pages.html/contacto.html"> Contacto </a> </li>
-                </div>
-            </Nav>
-        </header>
-        </div>
-        -->
-        <header class="container">
+    <header class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                   <a class="navbar-brand" "><img src="../assets/logo.png" alt="Logotipo de empresa Diseñari"></a>
@@ -72,47 +55,138 @@
                 </div>
               </nav>
         </header>
-    <h3 class="titulo__h2">¿Dónde estamos?</h3>
-    <!--Mapas de google maps de las los locales
-    <h3 class="centrar">Ubicación</h3>
-    <div class="centrar__tabla">
-    <table class="sacar__borde" cellspacing="5" cellpadding="5" border="5">
-        <tr >
-            <th class="sacar__borde">Caballito</th>
-            <th class="sacar__borde">Lujan</th>
-        </tr>
-        <tr>
-        <td><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3283.046203948906!2d-58.437848385997036!3d-34.62827266630222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1636477000600!5m2!1ses!2sar" width="600" height="450" style="border: 5px;;" allowfullscreen="" loading="lazy"></iframe></td></td>
-        <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.3431694363717!2d-59.02534598599969!3d-34.57018236322905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc8670842d85f5%3A0x9651adad3b54d357!2sClub%20de%20Campo%20Los%20Puentes!5e0!3m2!1ses!2sar!4v1636477146451!5m2!1ses!2sar" width="600" height="450" style="border: 3px;;" allowfullscreen="" loading="lazy"></iframe></td></td>
-        </tr>
-    </table>
-    </div>
-    -->
-    <!--grid con bootstrap-->
-    <div class="container">
-        <div class="row">
-          <div class="col">
-            <h4>Caballito</h4>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3283.046203948906!2d-58.437848385997036!3d-34.62827266630222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1636477000600!5m2!1ses!2sar" width="300" height="300" style="border: 5px;;" allowfullscreen="" loading="lazy"></iframe>
+    <p class="h4 centrar__texto">¿Dónde estamos?</p>
+    <div class="row container-fluid">
+      <div class="col-md-6 mb-4">
+        <div class="card">
+          <div class="view centrar__texto">
+            <h5 class="mb-0">Luján</h5>
           </div>
-          <div class="col">
-            <h4>Lujan</h4>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.3431694363717!2d-59.02534598599969!3d-34.57018236322905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc8670842d85f5%3A0x9651adad3b54d357!2sClub%20de%20Campo%20Los%20Puentes!5e0!3m2!1ses!2sar!4v1636477146451!5m2!1ses!2sar" width="300" height="300" style="border: 3px;;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="card-body">
+          <div id="map-container-google-8" class="z-depth-1-half map-container-5" style="height: 300px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13141.37714471656!2d-59.0238513!3d-34.570154099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1639154457792!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
         </div>
       </div>
-   <!--Footer de pagina-->
-   <section class="fondo__footer">
-    <footer class="grid__footer">
-        <div>
-            <img src="../assets/logo.png" alt="logotipo de empresa">
+   </div>
+  <div class="col-md-6 mb-4">
+    <div class="card">
+      <div class="view centrar__texto">
+        <h5 class="mb-0">Caballito, Capital Federal</h5>
+      </div>
+        <div class="card-body">
+          <div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3283.046203948906!2d-58.437848385997036!3d-34.62827266630222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1636477000600!5m2!1ses!2sar" width="300" height="300" style="border: 5px;;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
         </div>
-        <div>
-            <p> Todos los derechos reservados. Propiedad de Disenari 2021 </p>
-            <p>Aviso legal</p>
-        <div>
-    </footer>
-    </section>
+     </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Redes sociales -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Encuentranos en nuestras redes sociales:</span>
+          </div>
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </section>
+          
+        <!--Links a productos-->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Contenido -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>DISEÑARI
+                </h6>
+                <p>
+                  Somos una empresa dedicada al diseño y manufactura de productos en madera e impresión 3d para todos los niños y niñas siguiendo la metodología Montessori.
+                </p>
+              </div>
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Productos
+                </h6>
+                <p>
+                  <a href="pages.html/productos.html" class="text-reset">Torres de aprendizaje</a>
+                </p>
+                <p>
+                  <a href="pages.html/productos.html" class="text-reset">Juguetes en madera</a>
+                </p>
+                <p>
+                  <a href="pages.html/productos.html" class="text-reset">Impresión 3d</a>
+                </p>
+                <p>
+                  <a href="pages.html/productos.html" class="text-reset">Productos para el hogar</a>
+                </p>
+              </div>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Links Relevantes
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Metodología Montessori</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Seguridad</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Instrucciones</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Ayuda</a>
+                </p>
+              </div>
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contacto
+                </h6>
+                <p><i class="fas fa-home me-3"></i> Buenos Aires, Argentina</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  diseñari@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+              </div>
+              </div>
+            </div>
+        </section>
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="diesñari.com"> Diseñari.com</a>
+        </div>
+        </footer>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html> 
