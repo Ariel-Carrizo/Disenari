@@ -34,7 +34,7 @@ a:hover {
   color: brown;
 }
 
-button {
+.button {
   background-color: whitesmoke;
   border: 1px solid black;
   border-radius: 10px;
@@ -42,7 +42,7 @@ button {
   padding: 10px;
 }
 
-button:hover {
+.button:hover {
   background-color: black;
   color: whitesmoke;
 }
@@ -93,6 +93,16 @@ body,
 
 .carousel-inner img {
   margin: auto;
+}
+
+/*titulos*/
+.fondo_titulos{
+  display: block;
+  background-color: grey;
+  color: whitesmoke;
+  line-height: 3rem;
+  vertical-align: middle;
+  text-align:center;
 }
 
 /*estilo mapas*/
