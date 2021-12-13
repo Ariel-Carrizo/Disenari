@@ -1,0 +1,23 @@
+.titulos h1 {
+  color: black;
+  font-size: 22px;
+}
+.titulos h2 {
+  color: black;
+  font-size: 18px;
+}
+.titulos h3 {
+  color: black;
+  font-size: 16px;
+}
+.titulos h4 {
+  color: black;
+  font-size: 14px;
+}
+.titulos h5 {
+  color: black;
+  font-size: 20px;
+  background-color: red;
+}
+
+/*# sourceMappingURL=main.css.map */
