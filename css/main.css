@@ -1,8 +1,11 @@
+@font-face {
+  font-family: titulo1;
+  src: url("../assets/CRC55.otf");
+}
 body {
   background-color: whitesmoke;
 }
-
-.clase-titulo h1 {
+body .clase-titulo h1 {
   font-size: 1.7rem;
   color: whitesmoke;
   line-height: 3rem;
@@ -10,13 +13,18 @@ body {
   font-family: "montserrat";
   background-color: #d2c8bc;
 }
-.clase-titulo h2 {
+body .clase-titulo h2 {
   font-size: 1.2rem;
-  color: black;
+  color: whitesmoke;
   line-height: 2rem;
   text-align: center;
-  font-family: "montserrat";
+  font-family: "titulo1";
   background-color: #bbcfd7;
+}
+
+.texto-productos {
+  font-family: "titulo1";
+  background-color: #dcdcdd;
 }
 
 /*# sourceMappingURL=main.css.map */

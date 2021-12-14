@@ -20,6 +20,11 @@
   src: url("../assets/Montserrat-ExtraBold.ttf");
 }
 
+@font-face {
+  font-family: titulo1;
+  src: url("../assets/CRC55.otf");
+}
+
 /*hover y paginas visitadas*/
 
 a:link,
