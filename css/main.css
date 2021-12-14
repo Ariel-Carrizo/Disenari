@@ -1,23 +1,22 @@
-.titulos h1 {
-  color: black;
-  font-size: 22px;
+body {
+  background-color: whitesmoke;
 }
-.titulos h2 {
-  color: black;
-  font-size: 18px;
+
+.clase-titulo h1 {
+  font-size: 1.7rem;
+  color: whitesmoke;
+  line-height: 3rem;
+  text-align: center;
+  font-family: "montserrat";
+  background-color: #d2c8bc;
 }
-.titulos h3 {
+.clase-titulo h2 {
+  font-size: 1.2rem;
   color: black;
-  font-size: 16px;
-}
-.titulos h4 {
-  color: black;
-  font-size: 14px;
-}
-.titulos h5 {
-  color: black;
-  font-size: 20px;
-  background-color: red;
+  line-height: 2rem;
+  text-align: center;
+  font-family: "montserrat";
+  background-color: #bbcfd7;
 }
 
 /*# sourceMappingURL=main.css.map */
