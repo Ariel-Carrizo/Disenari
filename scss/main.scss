@@ -1,34 +1,48 @@
 @font-face {
-    font-family: titulo1;
-    src: url("../assets/CRC55.otf");
-  }
-
-body{
-    background-color: whitesmoke;
-
-    .clase-titulo{
-        h1{
-            font-size: 1.7rem;
-            color: whitesmoke;
-            line-height: 3rem;
-            text-align: center;
-            font-family: 'montserrat';
-            background-color: #d2c8bc;
-        }
-        h2{
-            font-size: 1.2rem;
-            color: whitesmoke;
-            line-height: 2rem;
-            text-align: center;
-            font-family: 'titulo1';
-            background-color: #bbcfd7;
-        }
-        
-    }
+  font-family: titulo1;
+  src: url("../assets/CRC55.otf");
 }
 
-.texto-productos
-        {
-            font-family: 'titulo1';
-            background-color: #dcdcdd;
-        }
+body {
+  background-color: whitesmoke;
+
+  .clase-titulo {
+    h1 {
+      font-size: 1.7rem;
+      color: whitesmoke;
+      line-height: 3rem;
+      text-align: center;
+      font-family: "montserrat";
+      background-color: #d2c8bc;
+    }
+    h2 {
+      font-size: 1.2rem;
+      color: whitesmoke;
+      line-height: 2rem;
+      text-align: center;
+      font-family: "titulo1";
+      background-color: #bbcfd7;
+    }
+  }
+}
+
+.texto-productos {
+  font-family: "titulo1";
+  background-color: #dcdcdd;
+}
+
+.tamano-imagen {
+  width: 100%;
+}
+
+/*media queries*/
+/*para monitores de mas de 1200px*/
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .tamano-imagen {
+    width: 30%;
+    display: block;
+    align-items: center;
+    margin: auto;
+  }
+}

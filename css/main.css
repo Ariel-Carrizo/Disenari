@@ -27,4 +27,19 @@ body .clase-titulo h2 {
   background-color: #dcdcdd;
 }
 
+.tamano-imagen {
+  width: 100%;
+}
+
+/*media queries*/
+/*para monitores de mas de 1200px*/
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .tamano-imagen {
+    width: 30%;
+    display: block;
+    align-items: center;
+    margin: auto;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
