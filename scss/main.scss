@@ -53,8 +53,6 @@ background-color: $color-nav-fondo;
   font-size: 3.5rem;
   color: $color-nav-fondo;
 }
-/*media queries*/
-/*para monitores de mas de 1200px*/
 
 .color-footer{
 background-color: $color-fondo;  
@@ -67,6 +65,17 @@ background-color: $color-fondo;
 .color-footer-texto{
   color: white;
 }
+
+.botones-carrusel{
+  height: 20px;
+  width: 20px;
+  margin-top: 32%;
+  margin-left: 32%;
+  margin-right: 32%;
+  background-color: $color-nav-fondo;
+}
+
+
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .tamano-imagen {
     width: 30%;
@@ -81,5 +90,13 @@ background-color: $color-fondo;
     font-family: $tipografia-principal;
     font-size: 2.7rem;
     color: $color-nav-fondo;
+  }
+  .botones-carrusel{
+    height: 20px;
+    width: 20px;
+    margin-top: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: $color-nav-fondo;
   }
 }

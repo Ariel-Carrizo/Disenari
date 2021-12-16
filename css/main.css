@@ -60,8 +60,6 @@ body .clase-titulo h2 {
   color: #82B2B8;
 }
 
-/*media queries*/
-/*para monitores de mas de 1200px*/
 .color-footer {
   background-color: #82B2B8;
 }
@@ -72,6 +70,15 @@ body .clase-titulo h2 {
 
 .color-footer-texto {
   color: white;
+}
+
+.botones-carrusel {
+  height: 20px;
+  width: 20px;
+  margin-top: 32%;
+  margin-left: 32%;
+  margin-right: 32%;
+  background-color: #82B2B8;
 }
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -87,6 +94,15 @@ body .clase-titulo h2 {
     font-family: lobster;
     font-size: 2.7rem;
     color: #82B2B8;
+  }
+
+  .botones-carrusel {
+    height: 20px;
+    width: 20px;
+    margin-top: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #82B2B8;
   }
 }
 
