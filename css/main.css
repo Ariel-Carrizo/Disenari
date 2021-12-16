@@ -44,6 +44,12 @@ body .clase-titulo h2 {
   background-color: #FBECDB;
 }
 
+.texto-productos2 {
+  font-family: bebasneue;
+  font-size: 1.5rem;
+  background-color: #A37E7E;
+}
+
 .tamano-imagen {
   width: 100%;
 }
