@@ -2,29 +2,46 @@
   font-family: titulo1;
   src: url("../assets/CRC55.otf");
 }
+@font-face {
+  font-family: bebasneue;
+  src: url("../assets/BebasNeue-Regular.ttf");
+}
+@font-face {
+  font-family: montserrat;
+  src: url("../assets/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: lobster;
+  src: url("../assets/Lobster 1.4.otf");
+}
 body {
   background-color: whitesmoke;
 }
 body .clase-titulo h1 {
-  font-size: 1.7rem;
+  font-size: 2.1rem;
   color: whitesmoke;
   line-height: 3rem;
   text-align: center;
-  font-family: "montserrat";
-  background-color: #d2c8bc;
+  font-family: lobster;
+  background-color: #E9BBB5;
 }
 body .clase-titulo h2 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: whitesmoke;
   line-height: 2rem;
   text-align: center;
-  font-family: "titulo1";
-  background-color: #bbcfd7;
+  font-family: montserrat;
+  background-color: #AAD9CD;
+}
+
+.nav-fondo {
+  background-color: #E7CBA9;
 }
 
 .texto-productos {
-  font-family: "titulo1";
-  background-color: #dcdcdd;
+  font-family: bebasneue;
+  font-size: 1.5rem;
+  background-color: #FBECDB;
 }
 
 .tamano-imagen {

@@ -2,33 +2,39 @@
   font-family: titulo1;
   src: url("../assets/CRC55.otf");
 }
+@import 'fuentes.scss';
 
 body {
   background-color: whitesmoke;
 
   .clase-titulo {
     h1 {
-      font-size: 1.7rem;
+      font-size: $tamano-tipo1;
       color: whitesmoke;
       line-height: 3rem;
       text-align: center;
-      font-family: "montserrat";
-      background-color: #d2c8bc;
+      font-family: $tipografia-principal;
+      background-color: $color-tipo1-fondo;
     }
     h2 {
-      font-size: 1.2rem;
+      font-size: $tamano-tipo2;
       color: whitesmoke;
       line-height: 2rem;
       text-align: center;
-      font-family: "titulo1";
-      background-color: #bbcfd7;
+      font-family: $tipografia-secundaria;
+      background-color: $color-tipo2-fondo;
     }
   }
 }
 
+.nav-fondo{
+background-color: $color-nav-fondo;
+}
+
 .texto-productos {
-  font-family: "titulo1";
-  background-color: #dcdcdd;
+  font-family: $tipografia-texto;
+  font-size:$tamano-texto;
+  background-color: $color-texto-fondo;
 }
 
 .tamano-imagen {
