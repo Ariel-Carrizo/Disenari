@@ -69,3 +69,11 @@ background-color: $color-fondo;
     margin: auto;
   }
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px){
+  .cta-inicio{
+    font-family: $tipografia-principal;
+    font-size: 2.7rem;
+    color: $color-nav-fondo;
+  }
+}

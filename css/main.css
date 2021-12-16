@@ -76,5 +76,12 @@ body .clase-titulo h2 {
     margin: auto;
   }
 }
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .cta-inicio {
+    font-family: lobster;
+    font-size: 2.7rem;
+    color: #82B2B8;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
