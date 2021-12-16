@@ -35,7 +35,7 @@ body .clase-titulo h2 {
 }
 
 .nav-fondo {
-  background-color: #E7CBA9;
+  background-color: #82B2B8;
 }
 
 .texto-productos {
@@ -48,8 +48,26 @@ body .clase-titulo h2 {
   width: 100%;
 }
 
+.cta-inicio {
+  font-family: lobster;
+  font-size: 3.5rem;
+  color: #82B2B8;
+}
+
 /*media queries*/
 /*para monitores de mas de 1200px*/
+.color-footer {
+  background-color: #82B2B8;
+}
+
+.limpiar-fondo {
+  background-color: white;
+}
+
+.color-footer-texto {
+  color: white;
+}
+
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .tamano-imagen {
     width: 30%;
