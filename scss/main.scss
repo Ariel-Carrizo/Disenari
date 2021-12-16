@@ -32,6 +32,10 @@ body {
 background-color: $color-nav-fondo;
 }
 
+.color-texto{
+  color: $color-nav-fondo;
+}
+
 .texto-productos {
   font-family: $tipografia-texto;
   font-size:$tamano-texto;

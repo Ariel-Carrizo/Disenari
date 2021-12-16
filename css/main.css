@@ -38,6 +38,10 @@ body .clase-titulo h2 {
   background-color: #82B2B8;
 }
 
+.color-texto {
+  color: #82B2B8;
+}
+
 .texto-productos {
   font-family: bebasneue;
   font-size: 1.5rem;
