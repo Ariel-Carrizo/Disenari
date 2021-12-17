@@ -29,12 +29,18 @@ body {
 }
 
 .nav-fondo{
-background-color: $color-nav-fondo;
+background-color: $color-nav-fondo !important;
 }
 
 .color-texto{
   color: $color-nav-fondo;
 }
+
+.color-texto-acordeon{
+  font-family: $tipografia-acordeon;
+  font-size: $tamano-tipo3;
+  color: $color-texto-acordeon;
+  }
 
 .texto-productos {
   font-family: $tipografia-texto;
@@ -59,7 +65,8 @@ background-color: $color-nav-fondo;
 }
 
 .color-footer{
-background-color: $color-fondo;  
+background-color: $color-fondo;
+color: $color-claro;  
 }
 
 .limpiar-fondo{
@@ -67,7 +74,7 @@ background-color: $color-fondo;
 }
 
 .color-footer-texto{
-  color: white;
+  color: $color-claro
 }
 
 .botones-carrusel{

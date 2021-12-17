@@ -1,3 +1,6 @@
+*{
+
+}
 @font-face {
   font-family: titulo1;
   src: url("../assets/CRC55.otf");
@@ -35,11 +38,17 @@ body .clase-titulo h2 {
 }
 
 .nav-fondo {
-  background-color: #82B2B8;
+  background-color: #82B2B8 !important;
 }
 
 .color-texto {
   color: #82B2B8;
+}
+
+.color-texto-acordeon {
+  font-family: montserrat;
+  font-size: 1rem;
+  color: #5E454B;
 }
 
 .texto-productos {
@@ -66,6 +75,7 @@ body .clase-titulo h2 {
 
 .color-footer {
   background-color: #82B2B8;
+  color: #FEFBF3;
 }
 
 .limpiar-fondo {
@@ -73,7 +83,7 @@ body .clase-titulo h2 {
 }
 
 .color-footer-texto {
-  color: white;
+  color: #FEFBF3;
 }
 
 .botones-carrusel {
@@ -83,6 +93,10 @@ body .clase-titulo h2 {
   margin-left: 32%;
   margin-right: 32%;
   background-color: #82B2B8;
+}
+
+.separacion{
+  padding-top: 1%;
 }
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
