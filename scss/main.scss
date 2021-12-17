@@ -32,6 +32,26 @@ body {
 background-color: $color-nav-fondo !important;
 }
 
+.boton-buscar{
+  color: $color-nav-fondo;
+  background-color: white;
+  border: $color-nav-fondo;
+  border-width: 1px;
+  font-weight: bold;
+  font-family: $tipografia-secundaria;
+}
+
+.boton-cta{
+    color: white;
+    background-color: $color-nav-fondo;
+    border: $color-nav-fondo;
+    border-width: 1px;
+    font-weight: bold;
+    font-family: $tipografia-secundaria;
+    width: 200px;
+    height: 50px;
+}
+
 .color-texto{
   color: $color-nav-fondo;
 }
