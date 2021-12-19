@@ -76,7 +76,7 @@ background-color: $color-nav-fondo !important;
 
 .texto-nav{
   font-family: $tipografia-secundaria;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: $color-claro;
 }
 
@@ -112,6 +112,7 @@ color: $color-claro;
   background-color: $color-nav-fondo;
 }
 
+/*media Queries*/
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .tamano-imagen {

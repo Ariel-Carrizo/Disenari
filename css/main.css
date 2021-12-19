@@ -82,7 +82,7 @@ body .clase-titulo h2 {
 
 .texto-nav {
   font-family: montserrat;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #FEFBF3;
 }
 
@@ -118,6 +118,7 @@ body .clase-titulo h2 {
   background-color: #82B2B8;
 }
 
+/*media Queries*/
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .tamano-imagen {
     width: 30%;
