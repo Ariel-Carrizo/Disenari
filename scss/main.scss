@@ -112,6 +112,53 @@ color: $color-claro;
   background-color: $color-nav-fondo;
 }
 
+.fondo-contacto{
+  background-image: url("");
+  background-repeat: none;
+  
+}
+
+/*Aplicando mixins*/
+@mixin borde($color-tipo1-fondo, $width: 2px) {  
+  color: $color-texto-acordeon;  
+  border: $width solid $color-tipo1-fondo;  
+  border-radius: 5px;  
+}  
+.redondeo  {  
+  @include borde($color-tipo1-fondo, $width: 2px);  
+}
+
+/*uso de extend*/
+.main_class {
+  background-color: $color-tipo1-fondo;
+  border: none;
+  box-shadow: 5px 5px 0 $color-fondo;
+  padding: 15px;
+  }
+  .class2 {
+  @extend .main_class;
+  background-color: $color-tipo2-fondo;
+  color: $color-claro;
+  border-radius: 10px;
+  font-family: $tipografia-texto;
+  letter-spacing: 0.2rem;
+  padding: 0.2rem;
+  box-shadow: none;
+  }
+  .class2:hover{
+  @extend .class2;
+  background-color: $color-tipo1-fondo;
+  }
+
+  .class3{
+    @extend .main_class;
+    border-radius: 2px;
+    padding: 0%;
+    box-shadow: none;
+    color: $color-texto-fondo;
+  }
+  
+
 /*media Queries*/
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {

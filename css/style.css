@@ -61,9 +61,11 @@ a:hover {
 }
 
 .button2:hover {
-  background-color: black;
+  background: linear-gradient(90deg, rgba(22,58,95,0.5256696428571428) 0%, rgba(69,235,165,0.46124387254901966) 100%);
   color: whitesmoke;
-}
+  }
+
+
 
 
 /* animacion de imagen zoom*/
@@ -120,7 +122,6 @@ body,
   background-color: grey;
   color: whitesmoke;
   line-height: 3rem;
-  vertical-align: middle;
   text-align:center;
 }
 
@@ -129,13 +130,9 @@ body,
   background-color: whitesmoke;
   color: black;
   line-height: 3rem;
-  vertical-align: middle;
   text-align:center;
 }
 
-.fondo_contacto{
-background-image: ;
-}
 /*estilo mapas*/
 
 .map-container-5{

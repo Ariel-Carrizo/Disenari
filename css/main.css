@@ -118,6 +118,47 @@ body .clase-titulo h2 {
   background-color: #82B2B8;
 }
 
+.fondo-contacto {
+  background-image: url("");
+  background-repeat: none;
+}
+
+/*Aplicando mixins*/
+.redondeo {
+  color: #5E454B;
+  border: 2px solid #E9BBB5;
+  border-radius: 5px;
+}
+
+/*uso de extend*/
+.main_class, .class3, .class2, .class2:hover {
+  background-color: #E9BBB5;
+  border: none;
+  box-shadow: 5px 5px 0 #82B2B8;
+  padding: 15px;
+}
+
+.class2, .class2:hover {
+  background-color: #AAD9CD;
+  color: #FEFBF3;
+  border-radius: 10px;
+  font-family: bebasneue;
+  letter-spacing: 0.2rem;
+  padding: 0.2rem;
+  box-shadow: none;
+}
+
+.class2:hover {
+  background-color: #E9BBB5;
+}
+
+.class3 {
+  border-radius: 2px;
+  padding: 0%;
+  box-shadow: none;
+  color: #FBECDB;
+}
+
 /*media Queries*/
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .tamano-imagen {
