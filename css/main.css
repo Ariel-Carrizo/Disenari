@@ -183,6 +183,10 @@ body .clase-titulo h2 {
     margin-right: 5%;
     background-color: #82B2B8;
   }
+
+  .redondeo {
+    height: fit-content;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
