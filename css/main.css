@@ -38,6 +38,21 @@ body .clase-titulo h2 {
   background-color: #82B2B8 !important;
 }
 
+.fondo-quienes-somos1 {
+  background: #e9bbb5;
+  background: linear-gradient(180deg, rgba(233, 187, 181, 0.4570421919) 0%, rgba(255, 255, 255, 0.4962578782) 100%);
+}
+
+.fondo-quienes-somos2 {
+  background: #aad9cd;
+  background: linear-gradient(180deg, rgba(170, 217, 205, 0.545277486) 0%, rgba(255, 255, 255, 0.4962578782) 100%);
+}
+
+.fondo-quienes-somos3 {
+  background: #d4c099;
+  background: linear-gradient(180deg, rgba(212, 192, 153, 0.545277486) 0%, rgba(255, 255, 255, 0.4962578782) 100%);
+}
+
 .boton-buscar {
   color: #82B2B8;
   background-color: white;
@@ -86,8 +101,14 @@ body .clase-titulo h2 {
   color: #FEFBF3;
 }
 
-.tamano-imagen {
+.tamano-imagen, .tamano-imagen2 {
   width: 100%;
+}
+
+.tamano-imagen2 {
+  float: left;
+  background-color: none;
+  width: 80%;
 }
 
 .cta-inicio {
@@ -179,7 +200,7 @@ body .clase-titulo h2 {
 
 /*media Queries*/
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-  .tamano-imagen {
+  .tamano-imagen, .tamano-imagen2 {
     width: 30%;
     display: block;
     align-items: center;

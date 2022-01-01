@@ -32,6 +32,21 @@ body {
 background-color: $color-nav-fondo !important;
 }
 
+.fondo-quienes-somos1{
+  background: rgb(233,187,181);
+  background: linear-gradient(180deg, rgba(233,187,181,0.45704219187675066) 0%, rgba(255,255,255,0.49625787815126055) 100%);
+}
+
+.fondo-quienes-somos2{
+  background: rgb(170,217,205);
+  background: linear-gradient(180deg, rgba(170,217,205,0.5452774859943977) 0%, rgba(255,255,255,0.49625787815126055) 100%);
+}
+
+.fondo-quienes-somos3{
+  background: rgb(212,192,153);
+  background: linear-gradient(180deg, rgba(212,192,153,0.5452774859943977) 0%, rgba(255,255,255,0.49625787815126055) 100%);
+}
+
 .boton-buscar{
   color: $color-nav-fondo;
   background-color: white;
@@ -82,6 +97,12 @@ background-color: $color-nav-fondo !important;
 
 .tamano-imagen {
   width: 100%;
+}
+.tamano-imagen2{
+  @extend .tamano-imagen;
+  float: left;
+  background-color: none;
+  width: 80%;
 }
 
 .cta-inicio{
