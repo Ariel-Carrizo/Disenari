@@ -157,6 +157,25 @@ color: $color-claro;
     box-shadow: none;
     color: $color-texto-fondo;
   }
+  .class4{
+    @extend .class3;
+    font-size: 1rem;
+    color: white;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    font-weight: lighter;
+    background-color: $color-nav-fondo;
+    font-family: $tipografia-texto;
+  }
+
+  .class5{
+    @extend .class3;
+    padding: 0.5rem;
+    background-color: $color-tipo1-fondo;
+    border: none;
+    color: white;
+    font-family: $tipografia-texto;
+  }
 
   
 

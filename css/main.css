@@ -131,7 +131,7 @@ body .clase-titulo h2 {
 }
 
 /*uso de extend*/
-.main_class, .class3, .class2, .class2:hover {
+.main_class, .class3, .class5, .class4, .class2, .class2:hover {
   background-color: #E9BBB5;
   border: none;
   box-shadow: 5px 5px 0 #82B2B8;
@@ -152,11 +152,29 @@ body .clase-titulo h2 {
   background-color: #E9BBB5;
 }
 
-.class3 {
+.class3, .class5, .class4 {
   border-radius: 2px;
   padding: 0%;
   box-shadow: none;
   color: #FBECDB;
+}
+
+.class4 {
+  font-size: 1rem;
+  color: white;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  font-weight: lighter;
+  background-color: #82B2B8;
+  font-family: bebasneue;
+}
+
+.class5 {
+  padding: 0.5rem;
+  background-color: #E9BBB5;
+  border: none;
+  color: white;
+  font-family: bebasneue;
 }
 
 /*media Queries*/
