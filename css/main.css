@@ -91,8 +91,13 @@ body .clase-titulo h2 {
   background-color: #AAD9CD;
 }
 
-.nav-fondo {
-  background-color: #82B2B8 !important;
+.nav-fondo, .contacto-fondo {
+  background-color: #82B2B8;
+}
+
+.contacto-fondo {
+  background-color: #AAD9CD;
+  border-radius: 10px;
 }
 
 .fondo-quienes-somos1 {
@@ -152,10 +157,15 @@ body .clase-titulo h2 {
   background-color: #A37E7E;
 }
 
-.texto-nav {
+.texto-nav, .texto-contacto {
   font-family: montserrat;
   font-size: 1.2rem;
   color: #FEFBF3;
+}
+
+.texto-contacto {
+  font-size: 0.9rem;
+  color: white;
 }
 
 .tamano-imagen, .tamano-imagen2 {

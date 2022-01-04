@@ -30,7 +30,13 @@ body {
 }
 
 .nav-fondo{
-background-color: $color-nav-fondo !important;
+background-color: $color-nav-fondo;
+}
+
+.contacto-fondo{
+  @extend .nav-fondo;
+  background-color: $color-tipo2-fondo;
+  border-radius: 10px;
 }
 
 .fondo-quienes-somos1{
@@ -94,6 +100,12 @@ background-color: $color-nav-fondo !important;
   font-family: $tipografia-secundaria;
   font-size: 1.2rem;
   color: $color-claro;
+}
+
+.texto-contacto{
+  @extend .texto-nav;
+  font-size: 0.9rem;
+  color: white;
 }
 
 .tamano-imagen {
