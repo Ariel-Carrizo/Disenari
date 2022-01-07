@@ -5,6 +5,7 @@
 @import 'fuentes.scss';
 @import 'colores.scss';
 @import 'contacto.scss';
+@import 'carrusel.scss';
 
 body {
   background-color: whitesmoke;
@@ -217,7 +218,7 @@ color: $color-claro;
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .tamano-imagen {
-    width: 30%;
+    width: 25%;
     display: block;
     align-items: center;
     margin: auto;
