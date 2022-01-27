@@ -227,18 +227,6 @@ color: $color-claro;
   margin: auto;
 }
 
-.container1{
-@extend .container;
-display: block;
-z-index: -1;
-}
-
-.container2{
-  @extend .container1;
-  padding-top: 100px;
-}
-
-  
 
 /*media Queries*/
 
