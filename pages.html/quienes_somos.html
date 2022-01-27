@@ -58,35 +58,42 @@
     <div class="clase-titulo container-fluid">
       <h1> ¿Quiénes Somos? </h1>
       </div>
-      <!--Seccion de introduccion a empresa fotos y descripcion-->
-    <section class="container">
-      <div class="container marketing">
-
-        <!-- Tres columnas para presentar a los integrantes de la empresa -->
-        <div class="row">
-          <div class="col-lg-4 fondo-quienes-somos3 zoom__img">
-            <img class="bd-placeholder-img rounded-circle centrar__imagen" width="140" height="140" src="../assets/foto_ariel.jpg" alt="foto de Ariel Carrizo"> </img>
-            <h2>Ariel Carrizo</h2>
-            <p>Responsable y CEO de la empresa, diseñador gráfico e industrial graduado en la Universidad de las Américas (Quito, Ecuador). Desarrollador de productos y mobiliario infantil, certificación en Diseño de Productos y UX/UI. </p>
-            <p><a class="btn btn-outline-dark" href="https://arielcarrizo.myportfolio.com/ariel-carrizo" role="button">Ver Portafolio</a></p>
-          </div>
-          <div class="col-lg-4 fondo-quienes-somos2 zoom__img">
-            <img class="bd-placeholder-img rounded-circle centrar__imagen" width="140" height="140" src="../assets/hector_carrizo.jpg" alt="foto de Hector Carrizo"> </img>
-            <h2>Hector Carrizo</h2>
-            <p>Experto en construcción y diseño de productos en madera. Encargado de producción y monitoreo de ventas. Responsable del control de stock y contacto con proveedores. Reparación y mantenimiento de máquinas del taller.</p>
-            <p><a class="btn btn-outline-dark" href="https://arielcarrizo.myportfolio.com/ariel-carrizo" role="button">Ver Portafolio</a></p>
-          </div>
-          <div class="col-lg-4 fondo-quienes-somos1 zoom__img">
-            <img class="bd-placeholder-img rounded-circle centrar__imagen" width="140" height="140" src="../assets/silvia_moisello.png" alt="foto de Silvia Moisello"> </img>
-            <h2>Silvia Moisello</h2>
-            <p>Responsable de logistíca de la empresa. Encargada de relaciones públicas, experiencia de consumidor y de la sección de quejas y reclamos. Parte del equipo de diseño y decoración de los productos.  </p>
-            <p><a class="btn btn-outline-dark" href="https://arielcarrizo.myportfolio.com/ariel-carrizo" role="button">Ver Portafolio</a></p>
-          </div>
-        </div>
-      </div>  
+<!--Presentacion integrantes-->
+<section>
+  <div class="card-group">
+    <div class="card fondo-quienes-somos1">
+      <img src="../assets/foto_ariel.png" class="card-img-top zoom__img tamano_foto " alt="Foto Ariel Carrizo"/>
+      <div class="card-body">
+        <h5 class="card-title">Ariel Carrizo</h5>
+        <p class="card-text">
+          Responsable y CEO de la empresa, diseñador gráfico e industrial graduado en la Universidad de las Américas (Quito, Ecuador). Desarrollador de productos y mobiliario infantil, certificación en Diseño de Productos y UX/UI.
+        </p>
+        <p><a class="btn btn-outline-dark" href="https://arielcarrizo.myportfolio.com/ariel-carrizo" target="_blank" role="button">Ver Portafolio</a></p>
+      </div>
     </div>
-    </section>
-      <!--bootstrap acordeon-->
+    <div class="card fondo-quienes-somos2">
+      <img src="../assets/hector_carrizo.png" class="card-img-top zoom__img tamano_foto" alt="Palm Springs Road"/>
+      <div class="card-body">
+        <h5 class="card-title">Hector Carrizo</h5>
+        <p class="card-text">
+          Experto en construcción y diseño de productos en madera. Encargado de producción y monitoreo de ventas. Responsable del control de stock y contacto con proveedores. Reparación y mantenimiento de máquinas del taller.</p>
+          <p><a class="btn btn-outline-dark" href="https://arielcarrizo.myportfolio.com/ariel-carrizo" target="_blank" role="button">Ver Portafolio</a></p>
+        </div>
+    </div>
+    <div class="card fondo-quienes-somos3">
+      <img src="../assets/silvia_moisello.png" class="card-img-top zoom__img tamano_foto" alt="Los Angeles Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title">Silvia Moisello </h5>
+        <p class="card-text">
+          Responsable de logistíca de la empresa. Encargada de relaciones públicas, experiencia de consumidor y de la sección de quejas y reclamos. Parte del equipo de diseño y decoración de los productos.
+        </p>
+        <p><a class="btn btn-outline-dark" href="https://arielcarrizo.myportfolio.com/ariel-carrizo" target="_blank" role="button">Ver Portafolio</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--bootstrap acordeon-->
       <div class="color-texto-acordeon">  
       <div class="accordion id="accordionExample">
             <div class="accordion-item">
@@ -111,7 +118,7 @@
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>Nuestra vision es</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, possimus?
+                  <strong>Nuestra vision es</strong> Ser la empresa líder del mercado de mueble para niños y niñas a nivel nacional y del continente Americano. Ayudando a los Argentinos y latinoamericanos a mejorar su vida, haciendo que sus hogares sean maravillosos. Ofreciéndoles las mayores facilidades de compra y asesoría para sus hogares.
                   <img src="../assets/diseñari-09.png" alt="diseñari oveja para motricidad fina" class="centrar__imagen img-fluid tamano-imagen">
                 </div>
               </div>
@@ -132,6 +139,7 @@
           </div>
         </div>
         </section>
+      
 <!--footer de la pagina-->
 
 <div class="container-fluid separacion">
@@ -201,16 +209,16 @@
             Links Relevantes
           </h6>
           <p>
-            <a href="https://www.fundacionmontessori.org/metodo-montessori.html" class="text-reset">Metodología Montessori</a>
+            <a href="https://www.fundacionmontessori.org/metodo-montessori.html" target="_blank" class="text-reset">Metodología Montessori</a>
           </p>
           <p>
-            <a href="../assets/seguridad-01.png" class="text-reset">Seguridad</a>
+            <a href="../assets/seguridad-01.png" target="_blank" class="text-reset">Seguridad</a>
           </p>
           <p>
-            <a href="../assets/modelos.png" class="text-reset">Modelos de Torres de Aprendizaje</a>
+            <a href="../assets/modelos.png" target="_blank" class="text-reset">Modelos de Torres de Aprendizaje</a>
           </p>
           <p>
-            <a href="../pages.html/contacto.html" class="text-reset">Ayuda</a>
+            <a href="../pages.html/contacto.html" target="_blank" class="text-reset">Ayuda</a>
           </p>
         </div>
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
